@@ -17,7 +17,7 @@ var options = { method: 'POST',
 request(options, function (error, response, body) {
   if (error) throw new Error(error);
 
-  console.log(body);
+  console.log(body); 
 });
 
 
